@@ -53,4 +53,4 @@ grouped_subject_activity<-group_by(model_means_and_std,subject_ID, activity)
 #creating a new data set with the means after the data was grouped
 means_by_subject_and_activity<-summarise_all(grouped_subject_activity,mean)
 means_by_subject_and_activity<-arrange(means_by_subject_and_activity,subject_ID,activity_ID)
-
+write.table(means_by_subject_and_activity,"means_by_subject_and_activity.txt",row.names=FALSE)
