@@ -7,7 +7,7 @@ output: html_document
 
 
 ## Variables
-means_by_subject_and_activity:Final and resulted dataset
+means_by_subject_and_activity:Final and resulted data set
 features: Name of the 561 measures
 activity_labels: Name of the six activities.
 model_means_and_std :combined data of test and training
