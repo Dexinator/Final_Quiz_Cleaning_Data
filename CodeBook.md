@@ -19,8 +19,13 @@ means_and_std: Extracted data that are only means or standard deviations
 with_names: activities with their respective names
 data:Datasets with the required filtered values and activity names
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Process
+The steps followed were the next:
+1. Download Files
+2. Extract and prepare the common files of training and testing data, such as matching activity names with the activity labels. Filtered only the measures of mean and standard deviations
+3. Train and test data were treated with the same process, Y data was used as column names, Data was filtered with the required features and subjects were added.
+4. Both, train and test data is combined
+5. Data was grouped by subject ID and activity
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 
